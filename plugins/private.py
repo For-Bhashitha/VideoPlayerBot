@@ -32,12 +32,12 @@ async def start(client, message):
                 InlineKeyboardButton("❔ HOW TO USE ME ❔", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("📢 CHANNEL", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                InlineKeyboardButton("SOURCE 📦", url=f"https://github.com/AsmSafone/VideoPlayerBot"),
+                InlineKeyboardButton(" GROUP ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("SOURCE", url=f"https://github.com/King-Amda"),
             ],
             [
-                InlineKeyboardButton("🤖 ABOUT", callback_data="about"),
-                InlineKeyboardButton("CLOSE 🔒", callback_data="close"),
+                InlineKeyboardButton("ABOUT", callback_data="about"),
+                InlineKeyboardButton("CLOSE", callback_data="close"),
             ],
             [
                InlineKeyboardButton("➕ ADD ME TO YOUR GROUP ➕", url=f"https://t.me/{USERNAME}?startgroup=true"),
@@ -92,11 +92,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("❔ HOW TO USE ME ❔", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("📢 CHANNEL", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                InlineKeyboardButton("SOURCE 📦", url=f"https://github.com/AsmSafone/VideoPlayerBot"),
+                InlineKeyboardButton("OWNER", url=f"https://t.me/NipunDinujayaOffline"),
+                InlineKeyboardButton("ASSISTANT", url=f"https://t.me/Chathush99"),
             ],
             [
-                InlineKeyboardButton("🤖 ABOUT", callback_data="about"),
+                InlineKeyboardButton(" ABOUT", callback_data="about"),
                 InlineKeyboardButton("CLOSE 🔒", callback_data="close"),
             ],
             [
