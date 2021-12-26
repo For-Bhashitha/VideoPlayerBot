@@ -26,7 +26,7 @@ from youtubesearchpython import VideosSearch
 
 buttons = [
             [
-                InlineKeyboardButton("Assistant", url="https://t.me/NiupunDinujaya"),
+                InlineKeyboardButton("Assistant", url="https://t.me/Chathush99"),
                 InlineKeyboardButton("Owner", url="https://t.me/NipunDinujayaOffline"),
             ],
             [
@@ -41,7 +41,7 @@ async def search(client, query):
         answers.append(
             InlineQueryResultArticle(
                 title="Deploy Own Video Player Bot",
-                input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b>© Powered By : \n@NiupunDinujaya | @NipunDinujayaOffline 👑</b>", disable_web_page_preview=True),
+                input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b>© Powered By : \n@NiupunDinujaya | @Chathush99 👑</b>", disable_web_page_preview=True),
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
