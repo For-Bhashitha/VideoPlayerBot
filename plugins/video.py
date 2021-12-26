@@ -134,7 +134,7 @@ async def stream(client, m: Message):
                 print(e)
 
         else:
-            await msg.edit("🔄 `Starting Live Video Stream ...`")
+            await msg.edit("🔄 `Starting Live Video Stream ... Powered By @NiupunDinujaya `")
             link = query
             thumb = "https://telegra.ph/file/3e14128ad5c9ec47801bd.jpg"
 
@@ -212,7 +212,7 @@ async def stream(client, m: Message):
             await msg.delete()
             await m.reply_photo(
                photo=thumb,
-               caption=f"▶️ **Started [Video Streaming](https://t.me/AsmSafone) In {m.chat.title} !**",
+               caption=f"▶️ **Started [Video Streaming](https://t.me/Niupun Dinujaya) In {m.chat.title}  !**",
                reply_markup=InlineKeyboardMarkup(
                [
                    [
